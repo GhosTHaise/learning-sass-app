@@ -1,4 +1,6 @@
 import CompanionCard from '@/components/companion-card'
+import CompanionList from '@/components/companion-list'
+import CTA from '@/components/cta'
 import React from 'react'
 
 const Page = () => {
@@ -11,6 +13,10 @@ const Page = () => {
         <CompanionCard />
         <CompanionCard />
         <CompanionCard />
+      </section>
+      <section className="home-section">
+        <CompanionList />
+        <CTA />
       </section>
     </main>
   )
